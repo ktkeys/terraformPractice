@@ -1,0 +1,14 @@
+
+# ignore ALL .log files
+**.log
+**.exe
+
+#ignore all tf files and backup 
+**.tfstate
+**.tfstate.backup
+**.pem
+
+
+# ignore ALL files in ANY directory named temp
+temp/
+*.terraform/
